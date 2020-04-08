@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ChangeLogPublicApp1.Models;
+using ChangeLogPublicApp.DataAccess;
 
 namespace ChangeLogPublicApp1.Controllers
 {
@@ -12,7 +13,9 @@ namespace ChangeLogPublicApp1.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            MongoDataAccess da = new MongoDataAccess();
+            var changeloglist = da.GetChangeLogs();
+            return View(changeloglist);
         }
 
         public IActionResult About()

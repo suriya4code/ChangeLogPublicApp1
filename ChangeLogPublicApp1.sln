@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeLogPublicApp1", "ChangeLogPublicApp1\ChangeLogPublicApp1.csproj", "{BF6DA76F-354D-446B-A262-25E3C405C70F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeLogPublicApp", "ChangeLogPublicApp1\ChangeLogPublicApp.csproj", "{BF6DA76F-354D-446B-A262-25E3C405C70F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

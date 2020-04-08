@@ -17,4 +17,5 @@ RUN dotnet publish "ChangeLogPublicApp1.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ChangeLogPublicApp1.dll"]
+#ENTRYPOINT ["dotnet", "ChangeLogPublicApp1.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT ChangeLogPublicApp1.dll

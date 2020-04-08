@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ChangeLogPublicApp1": {
+    "ChangeLogPublicApp": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
